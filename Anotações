@@ -1,0 +1,37 @@
+#<<<<<<<<<<<<<<<<<<<<<<Anotações>>>>>>>>>>>>>>>>>
+#leitura dos arquivos execel
+#        df1 = pd.read_excel("planilha.xlsx")
+#juntando todos os arquivos
+#         df = pd.concat([df1,df2])
+#Consultando linhas com valores faltantes
+#         df.isnull.sum()
+#Substituindo os valores nulos pela média
+#          df["vendas"].fillna(df["vendas"].mean(), inplace=True)
+#substituindo os valores nulos por zero
+#          df["vendas"].fillna(0, inplace=True)
+#apagando as linhas com valores nulos em uma coluna
+#          df.dropna(subset=["vendas"], inplace=True)
+#apagando as linhas com valores nulos
+#          df.dropna(inplace=True)
+#Criando uma nova coluna
+#   df["Receita"] = df["Vendas"].mul(df["Qtde"])
+#Retornando maior valor
+#   df["Receita"].max()
+#Retornando menor valor
+#   df["Receita"].min
+#Retorna os 3 primeiros valores
+# df.mlargest(3, "Receita")
+#Retorna as 3 ultimos valores
+# df.nsmallest(3, "Receita")
+#Ordenando o conjunto de dados
+# df.sort_values("Receita", ascending=False).head(10)
+#Agrupamento por anao
+# df.groupby(df["Data"].dt.year)["Receita"].sum()
+#Extraindo o mês e o dia
+#  df["mes_venda"], df["dia_venda"] = (df["Data"].dt.month, df["Data"].dt.day)
+#Retornando a data mais antiga
+#   dt["Data"].min()
+#Calculo com datas de dias
+#   dt["Diferenca_dias"] = df["Data"] - df["Data"].min()
+#Criando a coluna de trimestre
+# df["trimestre_venda"]= df["data"].dt.quarter
