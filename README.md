@@ -1,4 +1,4 @@
-# Analise_de_dados_com_python_pandas
+# Analise de dados com python pandas
 Entrega do  segundo Desafio de projeto Bootstrap  Geração Tech Unimed-BH - Ciência de Dados
 
 -Acho que a protosta do desafio de projeto é usar os conhecimento das aulas  e utilizar um dataset diferente.
